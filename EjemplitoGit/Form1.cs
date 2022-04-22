@@ -16,5 +16,11 @@ namespace EjemplitoGit
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = 10;
+            MessageBox.Show("Hola");
+        }
     }
 }
