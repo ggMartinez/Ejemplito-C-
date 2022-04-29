@@ -32,8 +32,14 @@ namespace EjemplitoGit
 	
         private void button2_Click(object sender, EventArgs e)
         {
-	    Console.Write("Hola mundo");
-            MessageBox.Show("2+2 = " + sumar(2,2).ToString());
+	    
+            // Nada por aca...
+
+        }
+
+        private void Hola()
+        {
+            Console.Write("Hola");
         }
     }
 }
