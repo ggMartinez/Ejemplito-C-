@@ -28,9 +28,11 @@ namespace EjemplitoGit
             int a = 10;
             MessageBox.Show("Hola");
         }
-
+	
+	
         private void button2_Click(object sender, EventArgs e)
         {
+	    Console.Write("Hola mundo");
             MessageBox.Show("2+2 = " + sumar(2,2).ToString());
         }
     }
