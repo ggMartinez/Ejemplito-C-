@@ -17,6 +17,12 @@ namespace EjemplitoGit
             InitializeComponent();
         }
 
+        private int sumar(int a, int b)
+        {
+            return a + b;
+        }
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             int a = 10;
@@ -25,7 +31,7 @@ namespace EjemplitoGit
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("2+2 = " + (2 + 2).ToString());
+            MessageBox.Show("2+2 = " + sumar(2,2).ToString());
         }
     }
 }
